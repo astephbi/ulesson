@@ -5,13 +5,15 @@ import {
   Text,
   Heading,
   Flex,
+  ButtonGroup,
   Center,
+  Button,
   Spacer,
 } from '@chakra-ui/react';
 
 const HeroSection = () => {
   return (
-    <Flex mx={40} justifyContent="space-between">
+    <Box mx={40}>
       <Center>
         <Box width="40%">
           <Heading
@@ -23,11 +25,33 @@ const HeroSection = () => {
             Get your child a dedicated
             <span style={{ color: 'secondary' }}> learning tab</span>
           </Heading>
+
           <Text mt="10px">
             A personal learning tablet for children in primary and
             secondary school to learn anywhere, anytime, and excel
             academically.
           </Text>
+          <ButtonGroup mt={5}>
+            <Button
+              bgColor="primary"
+              size="lg"
+              color="white"
+              rounded={30}
+              _hover="none"
+            >
+              Buy via WhatsApp
+            </Button>
+            <Button
+              bgColor="white"
+              size="lg"
+              color="primary"
+              rounded={30}
+              variant="outline"
+              _hover="none"
+            >
+              Buy Online
+            </Button>
+          </ButtonGroup>
         </Box>
         <Spacer />
         <Box>
@@ -37,7 +61,7 @@ const HeroSection = () => {
           />
         </Box>
       </Center>
-    </Flex>
+    </Box>
   );
 };
 

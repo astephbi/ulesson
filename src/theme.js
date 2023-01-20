@@ -10,7 +10,7 @@ const theme = extendTheme(
   {
     colors: {
       primary: '#301345',
-      secondary: '#EB7051',
+      secondary: '#EB051',
       lightColor: '#F2F2FB',
     },
     fonts: {
