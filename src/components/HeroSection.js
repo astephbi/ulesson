@@ -26,7 +26,7 @@ const HeroSection = () => {
             <span style={{ color: 'secondary' }}> learning tab</span>
           </Heading>
 
-          <Text mt="10px">
+          <Text color="primary" mt="10px">
             A personal learning tablet for children in primary and
             secondary school to learn anywhere, anytime, and excel
             academically.

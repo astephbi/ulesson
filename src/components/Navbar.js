@@ -9,14 +9,9 @@ import {
   Spacer,
   Flex,
   Button,
-  useDisclosure,
-  Text,
-  useColorMode,
 } from '@chakra-ui/react';
 
 const Navbar = () => {
-  const { isOpen, onClose, onOpen } = useDisclosure();
-  const { colorMode, toggleColorMode } = useColorMode();
   return (
     <Box>
       <Flex
