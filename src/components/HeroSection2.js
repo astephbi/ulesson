@@ -27,6 +27,7 @@ const HeroSection2 = () => {
             textAlign="center"
             fontWeight={600}
             borderRadius="50"
+            color="white "
           >
             Download the learning app for better school grades
           </Heading>
